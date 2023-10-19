@@ -1,0 +1,328 @@
+header, .about-us, .mission-vision{
+    color: rgb(95, 93, 93);
+}
+.green{
+    color: rgb(60, 200, 143);
+}
+.red{
+    color:red;
+}
+.yellow{
+    color:yellow;
+}
+.blue{
+    color: skyblue;
+}
+a:hover{
+    text-decoration: none;}
+    
+
+
+#header {
+    color: #4cd137;
+    background: white;
+    padding: 15px 10px;
+}
+#logo{
+font-size: 2rem;
+margin-top: 5px;
+margin-right: 1rem;                            
+}
+#menu{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    padding: 10px;
+    display: inline-block;
+}
+
+#menu li a{
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: 1px solid #CCC;
+    border-radius: 40%;
+    color:#808080;
+    /* padding: 15px 10px; */
+    display: block;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+background: #61C98F;
+color: #ffffff;
+
+}
+
+    header {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        background-color: #FFF;
+        width: 100%;
+        /* z-index: 99;  */ }
+    header .logo {
+    padding-top: 6px; }
+    header .header-top {
+        background-color: #fff;
+        border-bottom: 1px solid #d3d7cea6;
+        padding: 7px;}
+    header .header-top .col-det .ulleft{
+        list-style: none;
+        }
+    header .header-top .col-det .ulleft li {
+        float: left;
+        padding: 12px;
+        color: #686968;
+        font-size: .9rem; }
+    header .header-top .col-det .ulleft li i {
+        margin-right: 5px;
+        color: #bfbfbf; }
+    header .header-top .col-det .ulleft li span {
+        margin-left: 15px; }    
+    header .header-top .col-det .ulright {
+        list-style: none;
+        float: right; }
+    header .header-top .col-det .ulright li {
+        float: left;
+        padding: 10px;
+        color: #d3d7ce;
+        font-size: 1rem;
+        font-weight: 600; }
+    header .header-top .col-det .ulright li i {
+            margin-right: 5px;
+            color: #8c8a8a; }
+    header .header-top .col-det .ulright li small {
+            color: #8c8a8a;
+            font-weight: 600; }
+    header .header-top .col-det .ulright li span {
+            margin-left: 15px; }
+    header .header-top .btn-bhed {
+        padding-top: 7px;
+        text-align: right; }
+    header .header-top .btn-bhed .btn {
+        padding: 5px 23px;
+        border-radius: 50px;
+        margin-left: 5px; }
+
+
+.header-bottom {
+    position: static;
+    background-color: #fff;
+    
+}
+.carousel-slide{
+    display: block;
+}
+.no-margin {
+    margin: 0px;
+}
+.row-top {
+    margin-top: 20px;
+}
+.about-us{
+    background-color: rgb(237,241,245);
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.about-qcard{
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 50px 30px;
+    border-radius: 15px;
+}
+.about-qcard i {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+.about-us .text-part p {
+    text-indent: 20px;
+    margin-bottom: 15px;
+    line-height: 27px;
+    font-weight: 500;
+    text-align: justify;
+    font-size: 0.9rem;
+}
+.about-us .text-part h2{
+    margin-bottom: 25px;
+}
+.about-us .text-part{
+    padding-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        /*  IMPORTANT <img> tag styling */
+img {                                   
+    max-width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.mission-vision,.events,.doctor-message,.our-team,.our-blog,.footer,.nav-box {
+    padding: 30px 10px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.events{
+    background-color: #F9F9F9;
+}
+.session-title {
+    padding: 30px 30px 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.event-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.event-box img{
+    margin-bottom: 20px;
+}
+.raises {
+    margin-bottom: 10px;
+}
+.raises span {
+    color: #71b61b;
+}
+.btn-success {
+    background-color: #F9F9F9;
+    border-color: #F9F9F9;
+}
+.desic {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.doctor-message {
+    color: #FFF;
+    background-image: url(assets/images/slider/slider-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.our-team{
+    background-color: #F9F9F9;
+}
+.single-user img {
+    width: 100%;
+}
+.det-o {
+    padding: 20px;
+    background-color: #3cc88f;
+}
+.det-o h4 {
+    color: #FFF;
+    margin-bottom: 0px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.det-o i {
+    color: #FFF;
+    font-size: .8rem; }
+
+/*So, in your example, there are two box shadows being applied to the element, creating a layered or stacked shadow effect. The first shadow is slightly lighter and above the second one, giving depth and dimension to the element. You can have multiple shadows with different properties to achieve various visual effects. */
+.single-blog {
+    box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65), 0 2px 6px 0 rgba(206, 206, 238, 0.54);
+    padding: 10px;
+}
+.single-blog .figure img{
+width: 100%;
+}
+.our-blog .single-blog small, a {
+    color: #71b61b;
+    font-size: 12px;
+}
+.our-blog .single-blog p {
+    text-align: justify;
+    text-indent: 20px;
+}
+.our-blog .single-blog .link a {
+    color: #71b61b;
+    font-size: 12px;
+}
+.footer {
+    padding: 50px;
+    padding-bottom: 50px;
+    background-color: #1e2436;
+    color: #FFF;
+}
+.footer p {
+    text-align: justify;
+    text-indent: 20px;
+    font-size: .9rem;
+}
+.footer h2 {
+    font-size: 26px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+.footer .link-list li{
+    padding: 10px;
+    border-bottom: 1px solid #6C6C6C;
+    font-size: .9rem;
+}
+.footer .link-list li a {
+color: #FFF;
+text-decoration: none;
+}
+.footer .link-list li i {
+    float: right;
+}
+.footer address {
+    font-weight: 300;
+}
+
+.address{
+    margin-bottom: 1rem;
+    font-style: normal;
+    line-height: inherit;
+}
+.footer address a {
+    color: #FFF;
+    font-size: 1rem;
+    font-family: "mouse-300", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    }
+.nav-box {
+        margin-top: 50px;
+        border-radius: 50px;
+        border: 1px solid #ccc;
+    }
+.nav-box .footer-nav li{
+list-style: none;
+display: flex;
+}
+.nav-box .footer-nav li a{
+    color: #FFF;
+    text-decoration: none;
+}
